@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song</title>
+
+    <link rel="stylesheet" type="text/css" href="/assets/style.css">
+    <script defer src="/assets/js/main.js"></script>
+    <script defer src="/assets/js/song.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <h1>Task 3</h1>
+
+        <p>How did bear come into Mr. X’s life?</p>
+
+        <form action="#">
+            <div>
+                <input id="word" type="text" value="____" />
+            </div>
+        </form>
+        <button id="enter">
+            <audio class="hidden" id="right-sound" src="/assets/Mouseclick2.wav"></audio>
+            <audio class="hidden" id="wrong-sound" src="/assets/Mouseclick3.wav"></audio>
+            <p>enter</p>
+        </button>
+
+        <p id="correct" class="hidden">Correct!</p>
+
+        <div class="balloons">
+            <img id="balloon1" src="/assets/balloon-purple.png">
+            <img id="balloon2" src="/assets/balloon-purple.png">
+            <img id="balloon3" class="balloon-empty" src="/assets/balloon-purple.png">
+        </div>
+    </main>
+
+    <button id="next" class="hidden">
+        <audio class="hidden" id="next-sound" src="/assets/Mouseclick2.wav"></audio>
+        <p>Completed!</p>
+    </button>
+
+</body>
+
+</html>

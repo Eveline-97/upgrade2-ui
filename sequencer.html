@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequencer</title>
+
+    <link rel="stylesheet" type="text/css" href="/assets/style.css">
+    <script defer src="/assets/js/main.js"></script>
+    <script defer src="/assets/js/sequencer.js"></script>
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Task 2</h1>
+
+        <p>How did Mr. X get his nickname?
+            <br>Tip: The road to wealth is long.
+        </p>
+
+        <div id="numbers">
+            <input type="number" id="n0" class="number" min="0" max="9" value="0">
+            <input type="number" id="n1" class="number" min="0" max="9" value="0">
+            <input type="number" id="n2" class="number" min="0" max="9" value="0">
+            <input type="number" id="n3" class="number" min="0" max="9" value="0">
+            <input type="number" id="n4" class="number" min="0" max="9" value="0">
+            <input type="number" id="n5" class="number" min="0" max="9" value="0">
+        </div>
+        <button id="enter">
+            <audio class="hidden" id="right-sound" src="/assets/Mouseclick2.wav"></audio>
+            <audio class="hidden" id="wrong-sound" src="/assets/Mouseclick3.wav"></audio>
+            <p>enter</p>
+        </button>
+
+        <p id="correct" class="hidden">Correct!</p>
+
+        <div class="balloons">
+            <img id="balloon1" src="/assets/balloon-purple.png">
+            <img id="balloon2" class="balloon-empty" src="/assets/balloon-purple.png">
+            <img id="balloon3" class="balloon-empty" src="/assets/balloon-purple.png">
+        </div>
+
+    </main>
+
+    <button id="next" class="hidden">
+        <audio class="hidden" id="next-sound" src="/assets/Mouseclick2.wav"></audio>
+        <p>Completed!</p>
+    </button>
+
+</body>
+
+</html>
