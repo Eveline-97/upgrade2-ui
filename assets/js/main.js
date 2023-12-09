@@ -42,6 +42,6 @@ document.addEventListener('keydown', e => {
 
 next.addEventListener('click', async () => {
     await playAudio(nextSound);
-    await delay(300);
+    await delay(500);
     location.replace(stories[currentPage]);
 })

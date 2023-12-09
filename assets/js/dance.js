@@ -14,6 +14,7 @@ const toggle = item => {
         } else if (video.msRequestFullscreen) {
             video.msRequestFullscreen();
         }
+        item.play();
     } else {
         item.classList.remove('shown');
         item.classList.add('hidden');
@@ -26,6 +27,7 @@ const toggle = item => {
         } else if (video.msExitFullscreen) {
             video.msExitFullscreen();
         }
+        item.pause();
     }
 }
 
